@@ -1,0 +1,39 @@
+.video-list {
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.video-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.video-list li {
+  width: 100%; /* Modificato per adattarsi alla visualizzazione verticale */
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.video-list li img {
+  width: 100%;
+  height: auto;
+}
+
+.video-list li span {
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+  
